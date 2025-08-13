@@ -1,16 +1,4 @@
 #!/usr/bin/env python3
-"""
-Simple Music Browser + Player using PySide6.
-
-- Browses ~/Music as a file-manager: directories are treated as playlists.
-- .mp3 files are recognized as songs.
-- Rounded square "cover art" showing the first letter of the song name in an accent color.
-- Player with play/pause, stop, prev/next, seeker, volume.
-- Default deep purple/pink material-like theme, with a theme chooser.
-
-Author: ChatGPT (example)
-"""
-
 import os
 import sys
 from pathlib import Path
